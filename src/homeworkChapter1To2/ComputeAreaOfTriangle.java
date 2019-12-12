@@ -2,7 +2,7 @@ package homeworkChapter1To2;
 
 import java.util.Scanner;
 public class ComputeAreaOfTriangle {
-    private static Double GetLength(double[] point_a,double[] point_b){
+    private static Double GetLength(double[] point_a, double[] point_b){
         return Math.sqrt(Math.pow(point_a[0] - point_b[0],2) + Math.pow(point_a[1] - point_b[1],2));
     }
     public static void main(String[] args){
