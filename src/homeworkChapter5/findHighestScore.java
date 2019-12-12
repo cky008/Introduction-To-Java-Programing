@@ -13,10 +13,8 @@ public class findHighestScore {
         for(int i = 0; i < num; i++){
             ID[i] = i + 1;
             System.out.print("Enter name for student" + (i+1) + ": ");
-            String temn;
             name[i] = input.next();
             System.out.print("Enter score for student" + (i+1) + ": ");
-            double tems;
             scores[i] = input.nextDouble();
         }
         //find
